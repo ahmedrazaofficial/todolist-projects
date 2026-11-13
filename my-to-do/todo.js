@@ -19,3 +19,11 @@ input.addEventListener("submit", (event) => {
                     </div>
                 </li>`
 })
+
+function deleteItem(del){
+const todoRemove=document.getElementById(`todoId${del}`)
+console.log(todoRemove);
+
+// todoRemove.click 
+return
+}
